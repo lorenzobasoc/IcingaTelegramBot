@@ -12,7 +12,7 @@ namespace IcingaBot
     {
         static async Task Main() {
             try {
-                BotComunication.TelegramClient = new TelegramBotClient("2085850908:AAGieO-G0-WpofGotRVyoBel1e8sjacJkAA");
+                BotComunication.TelegramClient = new TelegramBotClient("token");
                 var me = await BotComunication.TelegramClient.GetMeAsync();
                 Console.WriteLine($"user: {me.Id}\nname: {me.FirstName}.");
                 using var cts = new CancellationTokenSource();
