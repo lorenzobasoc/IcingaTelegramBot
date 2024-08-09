@@ -1,0 +1,1 @@
+A prototype Telegram Bot designed to interact with the Icinga 2 API for IT infrastructure monitoring.
